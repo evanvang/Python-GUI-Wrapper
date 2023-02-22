@@ -1,11 +1,11 @@
 import PySimpleGUI as sg
 
-sg.theme('PythonPlus')
+sg.theme('BlueMono')
 
 #stuff in window
 layout = [  [sg.Text("GUI Trial Run!")],
             [sg.Text("Enter your file:"), sg.InputText()],
-            [sg.Button('Run MP3 File'),sg.Button("Exit")]   ]
+            [sg.Button('Run MP3 File'),sg.Button("Exit")]]
 
 window = sg.Window('CUBE SOFTWARE', layout)
 
